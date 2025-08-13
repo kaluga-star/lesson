@@ -5,7 +5,7 @@ export const scheduleData = [
       { name: 'Группа 8', start: '10:20', end: '11:50' , stop: ''  },
       { name: 'Группа 5', start: '13:30', end: '14:30', stop: ''  },
       { name: 'Группа 1', start: '14:50', end: '15:50', stop: ''   },
-      { name: 'Группа 7', start: '16:10', end: '17:40', stop: 'Занятие отменено'   },
+      { name: 'Группа 7', start: '16:10', end: '17:40', stop: 'Занятие отменяется'   },
     ]},
   {  day: 'Вторник',  date: new Date(2025, 8, 2), lessons: [
       { name: 'Группа 6', start: '9:00', end: '10:00' },
@@ -40,5 +40,4 @@ export const scheduleData = [
       
     ]},
 ];
-
 
